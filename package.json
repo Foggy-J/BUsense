@@ -1,0 +1,27 @@
+{
+  "name": "bu-sense",
+  "version": "1.0.0",
+  "description": "A simple backup solution for PfSense/OPNsense.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foggy-J/BUsense.git"
+  },
+  "author": "Foggy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foggy-J/BUsense/issues"
+  },
+  "homepage": "https://github.com/Foggy-J/BUsense#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
