@@ -2,7 +2,7 @@
 
 ### A simple backup solution for PfSense/OPNsense.
 ## Why BUsense?
-BUsense was built from the ground up as a simple solution for backing up a PfSense or OPNsense installation. With a firewall being the core of many networks, it is crucial that this component is backed up. However, many still overlook this. BUsense was created so backups can be performed quickly and easy, configured exactly as the user wanted.
+BUsense, or Backup-sense, was built from the ground up as a simple solution for backing up a PfSense or OPNsense installation. With a firewall being the core of many networks, it is crucial that this component is backed up. However, many still overlook this. BUsense was created so backups can be performed quickly and easy, configured exactly as the user wanted.
 ## Features
 - Backup either through SSH or web console
 - Web GUI for monitoring backups
