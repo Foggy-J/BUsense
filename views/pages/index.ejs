@@ -1,1 +1,19 @@
 <%- include('../partials/header', {title : 'Home'}) %>
+<body class="bg-slate-800">
+    <div class="container mx-auto pt-2 text-white">
+        <h1 class="text-3xl text-white font-semibold">Backup Status</h1>
+        <div class="grid grid-cols-4 text-center py-3 font-bold">
+            <p>Node Address</p>
+            <p>Backup Interval</p>
+            <p>Last Backup Timestamp</p>
+            <p>Last Backup Status</p>
+        </div>
+        <div class="rounded-md border-2 border-white grid grid-cols-4 text-center py-3">
+            <p>10.10.10.1</p>
+            <p>1 hour</p>
+            <p>Mon 27 May 2024 10:31:05</p>
+            <p>Success</p>
+        </div>
+    </div>
+</body>
+<%- include('../partials/footer') %>

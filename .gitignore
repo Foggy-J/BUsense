@@ -1,3 +1,4 @@
 /node_modules
 package-lock.json
-.gitignore
+/backups
+/config/data.db
