@@ -9,8 +9,8 @@
             <p>Last Backup Status</p>
         </div>
         <div class="rounded-md border-2 border-white grid grid-cols-4 text-center py-3">
-            <p>10.10.10.1</p>
-            <p>1 hour</p>
+            <p><%= host %></p>
+            <p><%= interval %> <% if(interval>1) { %> hours <% } else { %> hour <%  } %></p>
             <p>Mon 27 May 2024 10:31:05</p>
             <p>Success</p>
         </div>

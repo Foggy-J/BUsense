@@ -27,6 +27,8 @@ function setup() {
     } else {
         conlog.info('data.db SQLite database exists');
     }
+
+    // Testing node connection
 }
 
 module.exports = setup;
